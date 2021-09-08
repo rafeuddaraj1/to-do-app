@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM All You Need to Know</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="fix-width">
+      <div class="content">
+        <div class="logo-section">
+          <img src="./img/Screenshot_1.png" alt="" />
+          <h2>TO DO APP</h2>
+        </div>
+        <div class="task-add-section">
+          <form action="#" id="form">
+            <div class="task-title">
+              <h4>Add New Task</h4>
+            </div>
+            <div class="task-input">
+              <input id="add-task" type="text" />
+            </div>
+            <div class="task-add-btn">
+              <button class="btn" id="add-task-btn">Add Task</button>
+            </div>
+          </form>
+        </div>
+        <div class="task-list">
+          <div class="incomplete-task">
+            <h4>Incomplete Task</h4>
+            <ul id="to-do-list">
+              <li>
+                <input type="checkbox" id="one" />
+                <label for="one">Task Name</label>
+              </li>
+              <li>
+                <input type="checkbox" id="two" />
+                <label for="two">Task Name</label>
+              </li>
+              <li>
+                <input type="checkbox" id="three" />
+                <label for="three">Task Name</label>
+              </li>
+              <li>
+                <input type="checkbox" id="four" />
+                <label for="four">Task Name</label>
+              </li>
+            </ul>
+          </div>
+          <div class="complete-task">
+            <h4>Complete Task</h4>
+            <ul>
+              <li>Task Name <button class="btn">Delete</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

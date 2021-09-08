@@ -1,0 +1,103 @@
+/*
+ * Title: To do App
+ * Description: Raw JavaScript Project With Fully Functional Way
+ * Author: Rafe Uddaraj (Rafe JS)
+ * Data: 9/7/2021
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.fix-width {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.content {
+  width: 60vw;
+  margin: 50px auto;
+  background-color: #d1eedc;
+  border: 4px solid #bbb9be;
+  border-radius: 6px;
+  text-align: center;
+  padding: 50px 40px;
+}
+form {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid #bbb9be;
+  border-radius: 6px;
+}
+.task-title {
+  margin-right: 5px;
+}
+.task-add-btn {
+  margin-left: 5px;
+}
+.task-input input {
+  width: 20vw;
+  display: block;
+  padding: 0 5px;
+}
+.task-input input:focus {
+  outline: none;
+}
+.task-list {
+  display: flex;
+  align-items: flex-start;
+  justify-self: center;
+  margin-top: 50px;
+  text-align: left;
+  flex-wrap: nowrap;
+}
+.incomplete-task {
+  width: 50vw;
+  margin-right: 10%;
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid #bbb9be;
+  border-radius: 6px;
+}
+.incomplete-task ul li .btn {
+  display: inline-block;
+  background-color: #3e1ee7;
+  color: #fff;
+  border: 1px solid transparent;
+  margin-left: 5px;
+}
+.incomplete-task h4,
+.complete-task h4 {
+  border-bottom: 1px solid #bbb9be;
+  padding: 10px 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: #bbb9be;
+  text-align: center;
+}
+.incomplete-task ul li,
+.complete-task ul li {
+  border-bottom: 1px solid #bbb9be;
+  padding: 10px;
+}
+ul {
+  word-break: break-all;
+}
+.complete-task ul li .btn {
+  background-color: #e80009;
+  display: inline-block;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.complete-task {
+  width: 50vw;
+  margin-left: 10%;
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid #bbb9be;
+  border-radius: 6px;
+}
